@@ -1,0 +1,41 @@
+{
+  "lawn": {
+    "size": [5, 9],
+    "type": "full",
+    "fill": "grassland"
+  },
+  "pool": {
+    "size": [6, 9],
+    "type": "full_line",
+    "fill": [
+      "grassland",
+      "grassland",
+      "water",
+      "water",
+      "grassland",
+      "grassland"
+    ]
+  },
+  "lawn_1": {
+    "size": [5, 9],
+    "type": "full_line",
+    "fill": [
+      "dirt",
+      "dirt",
+      "grassland",
+      "dirt",
+      "dirt"
+    ]
+  },
+  "lawn_2": {
+    "size": [5, 9],
+    "type": "full_line",
+    "fill": [
+      "dirt",
+      "grassland",
+      "grassland",
+      "grassland",
+      "dirt"
+    ]
+  }
+}

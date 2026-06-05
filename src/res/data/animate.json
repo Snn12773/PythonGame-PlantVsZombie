@@ -1,0 +1,10 @@
+{
+  "peashooter": "plant/peashooter",
+  "sunflower": "plant/sunflower",
+  "pea": "projectile/pea",
+
+  "normal_zombie": "zombie/normal_zombie",
+  "normal_zombie_break_arm": "zombie/normal_zombie_break_arm",
+
+  "sun": "collect/sun"
+}

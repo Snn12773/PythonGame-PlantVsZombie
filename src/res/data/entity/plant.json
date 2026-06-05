@@ -1,0 +1,60 @@
+{
+  "peashooter": {
+    "hp": 100,
+    "cost": 100,
+    "cd": 10,
+    "trigger": {
+      "type": "zombie",
+      "range": "line",
+      "target": [0]
+    },
+    "ability":{
+      "type": "projectile",
+      "item": "pea",
+      "cd": 5,
+      "frequency": 1,
+      "target": "zombie"
+    },
+    "animate": ["peashooter"]
+  },
+  "sunflower": {
+    "hp": 100,
+    "cost": 50,
+    "cd": 7,
+    "ability": {
+      "type": "sun",
+      "amount": 25,
+      "cd": 10,
+      "frequency": 1
+    },
+    "animate": ["sunflower"]
+  },
+  "potato_mine": {
+    "hp": "150",
+    "cost": 25,
+    "cd": 25,
+    "trigger":{
+      "type": "time",
+      "oneshot": true,
+      "time": 20
+    },
+    "ability": {
+      "type": "transform",
+      "target": "potato_mine_ready"
+    },
+    "animate": ["potato_mine","grow"]
+  },
+  "potato_mine_ready": {
+    "hp": "inf",
+    "trigger": {
+      "type": "contact",
+      "target": "zombie"
+    },
+    "ability":{
+      "type": "explode",
+      "range": "square",
+      "size": 1
+    },
+    "animate": ["potato_mine_grow"]
+  }
+}

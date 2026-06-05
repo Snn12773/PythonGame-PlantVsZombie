@@ -1,0 +1,34 @@
+{
+  "adventure": {
+    "day": [
+      {
+        "name": "1-1",
+        "map": "lawn",
+        "time": "day",
+        "preview": [
+          {
+            "normal_zombie": 6
+          }
+        ],
+        "flag": {
+          "total": 1,
+          "waves": [
+            {
+              "zombies": ["normal_zombie"],
+              "frequency": 1,
+              "times": 5,
+              "big_wave": false
+            },
+            {
+              "zombies": ["normal_zombie"],
+              "frequency": 5,
+              "times": 1,
+              "big_wave": true
+            }
+          ]
+        }
+      }
+
+    ]
+  }
+}

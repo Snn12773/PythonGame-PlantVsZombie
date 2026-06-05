@@ -1,0 +1,14 @@
+{
+  "plant_unlock_list": {
+    "peashooter": true,
+    "sunflower": true
+  },
+  "level_data": {
+    "adventure": ["day",1]
+  },
+  "coin": 0,
+  "card_slot": 7,
+  "tool_unlock_list": {
+
+  }
+}

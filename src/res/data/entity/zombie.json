@@ -1,0 +1,8 @@
+{
+  "normal_zombie": {
+    "animate": ["normal_zombie","normal_zombie_break_arm"],
+    "hp": 160,
+    "armor": "none",
+    "speed": 0.15
+  }
+}

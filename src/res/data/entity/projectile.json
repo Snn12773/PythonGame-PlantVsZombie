@@ -1,0 +1,10 @@
+{
+  "pea": {
+    "speed":2,
+    "height": 50,
+    "gravity": false,
+    "move": "forward",
+    "damage": 20,
+    "animate": "pea"
+  }
+}
